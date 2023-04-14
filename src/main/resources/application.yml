@@ -1,0 +1,12 @@
+# Broker Configuration
+spring:
+  artemis:
+    mode: native
+    host: localhost
+    port: 61616
+    user: admin
+    password: admin123  # This should be passed as parameter and not hardcoded!
+
+# Queue Configuration
+jms:
+  queue: TestQueue
